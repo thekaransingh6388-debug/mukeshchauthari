@@ -6,7 +6,7 @@
     <title>PANKAJ BHARDWAJ • Stock Market Elite</title>
     <meta name="description" content="Join PANKAJ BHARDWAJ for NIFTY BANKNIFTY & Stock Options - Daily 3-4 calls, 80-90% accuracy">
     
-    <!-- NEW META PIXEL CODE (Updated Pixel ID: 860446473520708) -->
+    <!-- ===== NEW META PIXEL (ID: 1993664537996214) ===== -->
     <script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -16,13 +16,13 @@
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '860446473520708');
+        fbq('init', '1993664537996214');
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=860446473520708&ev=PageView&noscript=1"
+        src="https://www.facebook.com/tr?id=1993664537996214&ev=PageView&noscript=1"
     /></noscript>
-    <!-- End New Meta Pixel Code -->
+    <!-- ===== END NEW META PIXEL ===== -->
     
     <style>
         * {
@@ -186,21 +186,22 @@
             padding-top: 1.2rem;
         }
         
-        .pixel-badge {
+        .powered-badge {
             text-align: center;
             margin-top: 1.2rem;
-            font-size: 0.65rem;
-            color: #4a7a9c;
+            font-size: 0.7rem;
+            color: #7a9ac0;
             background: rgba(0, 50, 100, 0.15);
-            padding: 0.3rem 1rem;
+            padding: 0.4rem 1.2rem;
             border-radius: 40px;
             display: inline-block;
             width: auto;
             border: 1px solid #1a3a5a;
+            letter-spacing: 0.4px;
         }
-        .pixel-badge span {
-            font-weight: 600;
-            color: #6a9acf;
+        .powered-badge span {
+            font-weight: 700;
+            color: #a0c4ff;
         }
 
         /* Toast notification */
@@ -287,8 +288,8 @@
     </div>
     
     <div style="text-align: center;">
-        <div class="pixel-badge">
-            <span>🔵 Meta Pixel Active</span> · ID: 860446473520708
+        <div class="powered-badge">
+            AD NOW POWERED BY <span>KARAN AGENCY</span>
         </div>
     </div>
     
@@ -303,11 +304,9 @@
 
 <script>
     (function() {
-        // THE CORRECT TELEGRAM CHANNEL LINK (UPDATED)
+        // ===== CONFIGURATION =====
         const TELEGRAM_LINK = "https://t.me/+J-OeHLBbS8IzMzQ5";
-        
-        // NEW PIXEL ID
-        const PIXEL_ID = "860446473520708";
+        const PIXEL_ID = "1993664537996214";        // NEW PIXEL ID
         const BRAND_NAME = "PANKAJ_BHARDWAJ";
         
         // Toast helper
@@ -320,7 +319,7 @@
             }
         }
         
-        // Force update any telegram button to use the exact link
+        // Force update any telegram button to use the exact link + security
         const allTeleButtons = document.querySelectorAll('.tele-btn');
         allTeleButtons.forEach(btn => {
             if (btn.getAttribute('href') !== TELEGRAM_LINK) {
@@ -338,13 +337,12 @@
             return function() { console.log('Meta Pixel fallback:', arguments); };
         }
         
-        // Track Telegram button clicks with Pixel
+        // Track Telegram button clicks with Pixel (all events)
         function trackTelegramClick(event) {
             if (this._tracked) return;
             this._tracked = true;
             setTimeout(() => { this._tracked = false; }, 600);
             
-            // Determine button position
             const trackAttr = this.getAttribute('data-track') || 'telegram_unknown';
             const buttonPosition = trackAttr === 'join_top' ? 'Top_Header_CTA' : 'Bottom_Footer_CTA';
             const buttonText = trackAttr === 'join_top' ? 'JOIN TELEGRAM CHANNEL' : 'JOIN TELEGRAM NOW';
@@ -352,7 +350,7 @@
             try {
                 const fbqFunc = safeFbq();
                 if (typeof fbqFunc === 'function') {
-                    // LEAD event (primary conversion)
+                    // 1) LEAD event
                     fbqFunc('track', 'Lead', {
                         content_name: `${BRAND_NAME}_Telegram_Join`,
                         content_category: 'Telegram_Invite',
@@ -366,7 +364,7 @@
                         pixel_id: PIXEL_ID
                     });
                     
-                    // SUBSCRIBE event
+                    // 2) SUBSCRIBE event
                     fbqFunc('track', 'Subscribe', {
                         content_name: `${BRAND_NAME}_Telegram_Channel`,
                         status: 'subscribed',
@@ -377,7 +375,7 @@
                         pixel_id: PIXEL_ID
                     });
                     
-                    // CONTACT event
+                    // 3) CONTACT event
                     fbqFunc('track', 'Contact', {
                         contact_method: 'Telegram_Channel_Join',
                         button_id: trackAttr,
@@ -387,7 +385,7 @@
                         pixel_id: PIXEL_ID
                     });
                     
-                    // Custom: JoinTelegramClick
+                    // 4) Custom: JoinTelegramClick
                     fbqFunc('trackCustom', 'JoinTelegramClick', {
                         event_source: `${BRAND_NAME}_LandingPage`,
                         button_position: buttonPosition,
@@ -398,7 +396,7 @@
                         pixel_id: PIXEL_ID
                     });
                     
-                    // Custom: PankajBhardwajSubscription
+                    // 5) Custom: PankajBhardwajSubscription
                     fbqFunc('trackCustom', 'PankajBhardwajSubscription', {
                         trader_level: 'elite',
                         daily_signals: '3-4 observational calls',
@@ -505,7 +503,7 @@
     })();
 </script>
 
-<!-- Fallback: Ensure fbq never undefined -->
+<!-- Fallback: Ensure fbq never undefined + secure links -->
 <script>
     (function() {
         if (typeof fbq === 'undefined') {
@@ -526,11 +524,11 @@
     })();
 </script>
 
-<!-- Noscript fallback for critical events -->
+<!-- Noscript fallback for critical events (using new pixel) -->
 <noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=860446473520708&ev=Lead&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=860446473520708&ev=Subscribe&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=860446473520708&ev=Contact&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1993664537996214&ev=Lead&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1993664537996214&ev=Subscribe&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1993664537996214&ev=Contact&noscript=1"/>
 </noscript>
 
 </body>
