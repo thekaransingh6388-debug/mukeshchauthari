@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="site-title">PANKAJ BHARDWAJ</title>
-
-  <!-- Meta Pixel Code (NEW) -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pankaj Bhardwaj Official Channel – Free Telegram</title>
+  <meta name="author" content="Pankaj Bhardwaj Official Channel">
+  <meta name="description" content="Join thousands of traders receiving free daily market updates, premium calls and analysis.">
+  <meta property="og:title" content="Pankaj Bhardwaj Official Channel – Free Telegram">
+  <meta property="og:description" content="Join thousands of traders receiving free daily market updates, premium calls and analysis.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <!-- Meta Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -22,362 +28,756 @@
     src="https://www.facebook.com/tr?id=1598703801539469&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
-
-  <!-- Fonts + Icons -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-
   <style>
+    /* ---------- Reset & base ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     body {
-      font-family: 'Poppins', sans-serif;
-      margin: 0; padding: 0;
-      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
-      color: #fff;
-      position: relative;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0b0b0f;
+      color: #f2f2f2;
+      padding: 1rem;
       min-height: 100vh;
-    }
-    .hero {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 40px 20px;
-      background: url('https://www.transparenttextures.com/patterns/cubes.png');
-    }
-    .glass-box {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 20px;
-      padding: 40px 25px;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.4);
-      backdrop-filter: blur(10px);
-      max-width: 650px;
-      width: 100%;
-    }
-    .logo img {
-      width: 120px; height: 120px;
-      border-radius: 50%;
-      border: 3px solid #ffcc00;
-      object-fit: cover;
-      margin-bottom: 20px;
-      transition: transform 0.3s ease;
-    }
-    .logo img:hover {
-      transform: scale(1.08);
-    }
-    h1 {
-      font-weight: 700;
-      color: #ffcc00;
-      font-size: 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-    }
-    .crown {
-      color: gold;
-      animation: shine 2s infinite linear;
-    }
-    @keyframes shine {
-      0% { opacity: 0.6; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.3); }
-      100% { opacity: 0.6; transform: scale(1); }
-    }
-    h2 {
-      font-weight: 600;
-      margin-top: 30px;
-      color: #00ffb3;
-    }
-    p {
-      color: #ddd;
-      margin: 10px 0;
-      font-size: 16px;
-    }
-    a.cta-btn {
-      background: linear-gradient(90deg, #0072ff, #00c6ff);
-      padding: 14px 40px;
-      border-radius: 50px;
-      font-size: 18px;
-      color: #fff;
-      font-weight: 600;
-      display: inline-block;
-      margin: 18px 0;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(0, 198, 255, 0.4);
-      animation: pulse 1.5s infinite;
-      cursor: pointer;
-    }
-    @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(0,198,255,0.7); }
-      70% { box-shadow: 0 0 0 20px rgba(0,198,255,0); }
-      100% { box-shadow: 0 0 0 0 rgba(0,198,255,0); }
-    }
-    .highlight {
-      color: #00ff88;
-      font-weight: 600;
-    }
-    .stats {
-      display: flex;
-      justify-content: center;
-      margin: 20px 0;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .stat-box {
-      background: rgba(255,255,255,0.08);
-      padding: 12px 20px;
-      border-radius: 12px;
-      font-size: 14px;
-      font-weight: 600;
-      color: #fff;
-    }
-    .benefits {
       display: flex;
       flex-direction: column;
-      gap: 12px;
-      margin: 20px 0;
+      align-items: center;
+      justify-content: center;
     }
-    .benefit-card {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.1);
-      padding: 12px;
-      border-radius: 12px;
-      text-align: left;
-      font-size: 15px;
-    }
-    footer {
-      margin-top: 20px;
-      font-size: 13px;
-      color: #aaa;
-    }
-    .ad-manage-tag {
-      position: fixed;
-      bottom: 10px;
-      right: 12px;
-      font-size: 10px;
-      color: #888;
-      background: rgba(0,0,0,0.3);
-      padding: 4px 10px;
-      border-radius: 30px;
-      backdrop-filter: blur(6px);
-      z-index: 999;
-      font-weight: 400;
-      letter-spacing: 0.3px;
-      border: 1px solid rgba(255,255,255,0.08);
-      transition: all 0.3s ease;
+    a {
       text-decoration: none;
-      pointer-events: none;
+      color: inherit;
     }
-    .ad-manage-tag i {
-      font-size: 9px;
-      margin-right: 4px;
-      color: #ffcc00;
+    img {
+      display: block;
+      max-width: 100%;
     }
 
-    /* === BUTTON POP-UP / MODAL STYLES === */
-    .modal-overlay {
-      display: none;
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0, 0, 0, 0.75);
-      backdrop-filter: blur(6px);
-      z-index: 1000;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-    }
-    .modal-overlay.active {
-      display: flex;
-    }
-    .modal-box {
-      background: linear-gradient(145deg, #1e1e2a, #12121c);
-      border: 1px solid rgba(255, 204, 0, 0.3);
-      border-radius: 24px;
-      padding: 30px 25px 25px;
-      max-width: 380px;
+    /* ---------- container ---------- */
+    .page {
+      max-width: 28rem;
       width: 100%;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    @media (min-width: 768px) {
+      .page {
+        gap: 1.5rem;
+      }
+    }
+
+    /* ---------- live badge ---------- */
+    .live-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #1e1e26;
+      border-radius: 9999px;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #f2f2f2;
+    }
+    @media (min-width: 768px) {
+      .live-badge {
+        padding: 0.375rem 1rem;
+        font-size: 0.875rem;
+      }
+    }
+    .live-dot-wrapper {
       position: relative;
-      box-shadow: 0 20px 50px rgba(0,0,0,0.8), 0 0 40px rgba(0, 198, 255, 0.15);
-      animation: modalFadeIn 0.3s ease;
+      display: flex;
+      width: 0.5rem;
+      height: 0.5rem;
     }
-    @keyframes modalFadeIn {
-      from { opacity: 0; transform: scale(0.9) translateY(20px); }
-      to { opacity: 1; transform: scale(1) translateY(0); }
-    }
-    .modal-close {
+    .live-dot-ping {
       position: absolute;
-      top: 10px;
-      right: 16px;
-      font-size: 26px;
-      color: #aaa;
-      cursor: pointer;
-      transition: color 0.2s;
-      line-height: 1;
+      inset: 0;
+      border-radius: 9999px;
+      background: #facc15;
+      opacity: 0.75;
+      animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
     }
-    .modal-close:hover {
-      color: #ffcc00;
+    .live-dot {
+      position: relative;
+      border-radius: 9999px;
+      width: 0.5rem;
+      height: 0.5rem;
+      background: #facc15;
     }
-    .modal-box .modal-icon {
-      font-size: 48px;
-      color: #ffcc00;
-      margin-bottom: 12px;
+    @keyframes ping {
+      75%, 100% {
+        transform: scale(2);
+        opacity: 0;
+      }
+    }
+    .live-muted {
+      color: #a1a1aa;
+      font-weight: 400;
+    }
+
+    /* ---------- avatar ---------- */
+    .avatar-wrapper {
+      position: relative;
+      display: inline-block;
+    }
+    .avatar-ring {
+      border-radius: 9999px;
+      padding: 0.25rem;
+      background: linear-gradient(135deg, #facc15, #f97316, #ef4444);
+      display: inline-block;
+    }
+    .avatar-img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 9999px;
+      object-fit: cover;
       display: block;
     }
-    .modal-box h3 {
-      color: #fff;
-      font-weight: 700;
-      font-size: 1.4rem;
-      margin-bottom: 8px;
+    @media (min-width: 768px) {
+      .avatar-img {
+        width: 6rem;
+        height: 6rem;
+      }
     }
-    .modal-box p {
-      color: #bbb;
-      font-size: 15px;
-      margin-bottom: 22px;
-      line-height: 1.5;
+    .verified-badge {
+      position: absolute;
+      right: -0.25rem;
+      bottom: 0.25rem;
+      width: 1.25rem;
+      height: 1.25rem;
+      fill: #facc15;
+      stroke: #0b0b0f;
+      stroke-width: 2;
     }
-    .modal-join-btn {
-      display: inline-flex;
+    @media (min-width: 768px) {
+      .verified-badge {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+
+    /* ---------- headings ---------- */
+    .channel-name {
+      font-size: 1.5rem;
+      font-weight: 800;
+      text-align: center;
+      line-height: 1.2;
+      color: #f2f2f2;
+    }
+    @media (min-width: 768px) {
+      .channel-name {
+        font-size: 1.875rem;
+      }
+    }
+    .channel-sub {
+      font-size: 0.75rem;
+      color: #a1a1aa;
+      text-align: center;
+    }
+    @media (min-width: 768px) {
+      .channel-sub {
+        font-size: 0.875rem;
+      }
+    }
+    .rating {
+      display: flex;
       align-items: center;
       justify-content: center;
-      gap: 8px;
-      background: linear-gradient(90deg, #0072ff, #00c6ff);
-      color: #fff;
-      font-weight: 600;
-      padding: 14px 32px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-size: 17px;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 20px rgba(0, 198, 255, 0.5);
+      gap: 0.375rem;
+      font-size: 0.75rem;
+      color: #a1a1aa;
+    }
+    @media (min-width: 768px) {
+      .rating {
+        font-size: 0.875rem;
+      }
+    }
+    .stars {
+      color: #facc15;
+      letter-spacing: 0.05em;
+    }
+
+    /* ---------- stats grid ---------- */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
       width: 100%;
     }
-    .modal-join-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(0, 198, 255, 0.7);
-      color: #fff;
+    @media (min-width: 768px) {
+      .stats-grid {
+        gap: 0.75rem;
+      }
     }
-    .modal-join-btn i {
-      font-size: 20px;
+    .stat-card {
+      background: #1e1e26;
+      border-radius: 1rem;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    @media (min-width: 768px) {
+      .stat-card {
+        padding: 1rem 1.5rem;
+        border-radius: 1rem;
+      }
+    }
+    .stat-value {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: #facc15;
+    }
+    @media (min-width: 768px) {
+      .stat-value {
+        font-size: 1.25rem;
+      }
+    }
+    .stat-label {
+      font-size: 0.625rem;
+      color: #a1a1aa;
+      margin-top: 0.125rem;
+    }
+    @media (min-width: 768px) {
+      .stat-label {
+        font-size: 0.6875rem;
+      }
+    }
+
+    /* ---------- hero card ---------- */
+    .hero-card {
+      background: #1e1e26;
+      border-radius: 1.5rem;
+      padding: 0.75rem 1rem;
+      text-align: center;
+      width: 100%;
+    }
+    @media (min-width: 768px) {
+      .hero-card {
+        padding: 1.75rem 1.5rem;
+      }
+    }
+    .hero-title {
+      font-size: 1.125rem;
+      font-weight: 700;
+      line-height: 1.4;
+      color: #f2f2f2;
+      display: inline-block;
+      animation: blinkZoom 2s ease-in-out infinite;
+    }
+    @media (min-width: 768px) {
+      .hero-title {
+        font-size: 1.25rem;
+      }
+    }
+    @keyframes blinkZoom {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.02); opacity: 0.9; }
+    }
+    .highlight {
+      color: #facc15;
+    }
+    .hero-sub {
+      margin-top: 0.5rem;
+      font-size: 0.6875rem;
+      color: #a1a1aa;
+    }
+    @media (min-width: 768px) {
+      .hero-sub {
+        margin-top: 1rem;
+        font-size: 0.75rem;
+      }
+    }
+
+    /* ---------- join banner ---------- */
+    .join-banner {
+      width: 100%;
+      background: #1e1e26;
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      text-align: center;
+    }
+    @media (min-width: 768px) {
+      .join-banner {
+        padding: 1rem 1.5rem;
+      }
+    }
+    .join-banner-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.375rem;
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: #f2f2f2;
+    }
+    @media (min-width: 768px) {
+      .join-banner-row {
+        font-size: 1rem;
+      }
+    }
+    .icon-zap {
+      width: 1rem;
+      height: 1rem;
+      fill: #facc15;
+      stroke: #facc15;
+    }
+    .icon-flame {
+      width: 1rem;
+      height: 1rem;
+      fill: #f97316;
+      stroke: #f97316;
+    }
+    .join-banner-sub {
+      font-size: 0.75rem;
+      color: #f2f2f2;
+    }
+    @media (min-width: 768px) {
+      .join-banner-sub {
+        font-size: 0.875rem;
+      }
+    }
+
+    /* ---------- CTA button ---------- */
+    .cta-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.625rem;
+      min-height: 4rem;
+      width: calc(100% - 1rem);
+      border-radius: 9999px;
+      background: #facc15;
+      color: #0b0b0f;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 0 1.5rem;
+      transition: filter 0.2s, transform 0.2s;
+      animation: blinkZoomFast 1.5s ease-in-out infinite;
+      box-shadow: 0 0 25px rgba(250, 204, 21, 0.5);
+    }
+    @media (min-width: 768px) {
+      .cta-button {
+        min-height: 4.5rem;
+        width: 22rem;
+        font-size: 1.125rem;
+      }
+    }
+    .cta-button:hover {
+      filter: brightness(1.1);
+      transform: scale(1.01);
+    }
+    @keyframes blinkZoomFast {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.03); opacity: 0.92; }
+    }
+    .cta-icon {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+
+    /* ---------- feature list ---------- */
+    .feature-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+      width: 100%;
+    }
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      min-height: 3rem;
+      background: #1e1e26;
+      border-radius: 9999px;
+      padding: 0.75rem 1.25rem;
+    }
+    .feature-icon {
+      width: 1rem;
+      height: 1rem;
+      flex-shrink: 0;
+      color: #facc15;
+    }
+    .feature-text {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #f2f2f2;
+    }
+
+    /* ---------- testimonials ---------- */
+    .testimonials-section {
+      width: 100%;
+      padding-top: 0.25rem;
+    }
+    @media (min-width: 768px) {
+      .testimonials-section {
+        padding-top: 0;
+      }
+    }
+    .testimonials-header {
+      text-align: center;
+      margin-bottom: 0.75rem;
+    }
+    @media (min-width: 768px) {
+      .testimonials-header {
+        margin-bottom: 1rem;
+      }
+    }
+    .testimonials-header h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #f2f2f2;
+    }
+    .testimonials-header p {
+      font-size: 0.75rem;
+      color: #a1a1aa;
+    }
+    .testimonial-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+    }
+    @media (min-width: 768px) {
+      .testimonial-list {
+        gap: 0.75rem;
+      }
+    }
+    .testimonial-card {
+      position: relative;
+      background: #1e1e26;
+      border-radius: 1rem;
+      padding: 1rem;
+    }
+    @media (min-width: 768px) {
+      .testimonial-card {
+        padding: 1rem 1.25rem;
+      }
+    }
+    .quote-icon {
+      position: absolute;
+      right: 1rem;
+      top: 0.75rem;
+      width: 1.5rem;
+      height: 1.5rem;
+      color: #2d2d3a;
+      stroke: #2d2d3a;
+      fill: none;
+    }
+    .testimonial-text {
+      position: relative;
+      padding-right: 1rem;
+      font-size: 0.75rem;
+      line-height: 1.6;
+      color: #f2f2f2;
+    }
+    @media (min-width: 768px) {
+      .testimonial-text {
+        font-size: 0.875rem;
+      }
+    }
+    .testimonial-author {
+      margin-top: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .author-avatar {
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 9999px;
+      background: #2d2d3a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #facc15;
+      flex-shrink: 0;
+    }
+    .author-name {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #f2f2f2;
+    }
+    @media (min-width: 768px) {
+      .author-name {
+        font-size: 0.875rem;
+      }
+    }
+    .author-role {
+      font-size: 0.625rem;
+      color: #a1a1aa;
+    }
+    @media (min-width: 768px) {
+      .author-role {
+        font-size: 0.75rem;
+      }
+    }
+
+    /* ---------- repeat join banner & CTA (spacing) ---------- */
+    .spacer-tiny {
+      height: 0.125rem;
+    }
+
+    /* ---------- disclaimer ---------- */
+    .disclaimer {
+      width: 100%;
+      background: #1e1e26;
+      border-radius: 1.5rem;
+      padding: 1.25rem;
+    }
+    @media (min-width: 768px) {
+      .disclaimer {
+        padding: 1.25rem 1.5rem;
+      }
+    }
+    .disclaimer h2 {
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: #f2f2f2;
+    }
+    .disclaimer p {
+      margin-top: 0.5rem;
+      font-size: 0.6875rem;
+      line-height: 1.6;
+      color: #a1a1aa;
+    }
+    @media (min-width: 768px) {
+      .disclaimer p {
+        font-size: 0.75rem;
+      }
+    }
+
+    /* ---------- fine print ---------- */
+    .fine-print {
+      font-size: 0.6875rem;
+      color: #a1a1aa;
+      text-align: center;
+      margin-top: -0.25rem;
+    }
+    @media (min-width: 768px) {
+      .fine-print {
+        margin-top: -0.75rem;
+      }
+    }
+    .fine-print strong {
+      color: #facc15;
     }
   </style>
 </head>
 <body>
+  <main class="page">
+    <!-- Live badge -->
+    <div class="live-badge">
+      <span class="live-dot-wrapper">
+        <span class="live-dot-ping"></span>
+        <span class="live-dot"></span>
+      </span>
+      <span>LIVE</span>
+      <span class="live-muted">• 5,747 traders online now</span>
+    </div>
 
-  <!-- Easy Variables (UPDATED) -->
-  <script>
-    const SITE_NAME = "PANKAJ BHARDWAJ";
-    const SITE_IMAGE = "https://karanmetalabe.com/wp-content/uploads/2026/08/images-21.jpg";
-    const TELEGRAM_LINK = "https://t.me/+J-OeHLBbS8IzMzQ5";
-  </script>
-
-  <section class="hero">
-    <div class="glass-box">
-      <div class="logo">
-        <img id="site-logo" alt="Brand Logo">
+    <!-- Avatar + name -->
+    <div class="avatar-wrapper">
+      <div class="avatar-ring">
+        <img
+          src="https://karanmetalabe.com/wp-content/uploads/2025/11/download-9.jpg"
+          alt="Pankaj Bhardwaj Official Channel"
+          width="512"
+          height="512"
+          class="avatar-img"
+        />
       </div>
-      <h1 id="site-heading"></h1>
-      <p>✅ Trusted by thousands of learners</p>
+      <svg class="verified-badge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="Verified">
+        <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path>
+        <path d="m9 12 2 2 4-4"></path>
+      </svg>
+    </div>
 
-      <div class="stats">
-        <div class="stat-box">24/7 Updates</div>
-        <div class="stat-box">Free to Join</div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 0.25rem;">
+      <h1 class="channel-name">Pankaj Bhardwaj Official Channel</h1>
+      <p class="channel-sub">🏆 India's No.1 Stock Market Channel</p>
+      <p class="rating">
+        <span class="stars">★★★★★</span> (4.9/5 rating)
+      </p>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value">100k+</div>
+        <div class="stat-label">Subscribers</div>
       </div>
-
-      <!-- CTA Button — now opens pop-up instead of direct link -->
-      <a id="cta-btn-1" class="cta-btn" onclick="openModal(event)">
-        <i class="fa-brands fa-telegram me-1"></i> Join on Telegram
-      </a>
-
-      <div class="benefits">
-        <div class="benefit-card"><i class="fa-solid fa-check-circle highlight"></i> Market Insights & Discussions</div>
-        <div class="benefit-card"><i class="fa-solid fa-check-circle highlight"></i> Learn with Experts</div>
-        <div class="benefit-card"><i class="fa-solid fa-check-circle highlight"></i> Practical Strategies</div>
+      <div class="stat-card">
+        <div class="stat-value">5+ Yrs</div>
+        <div class="stat-label">Experience</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">100%</div>
+        <div class="stat-label">Free Access</div>
       </div>
     </div>
-  </section>
 
-  <!-- POP-UP MODAL -->
-  <div id="joinModal" class="modal-overlay">
-    <div class="modal-box">
-      <span class="modal-close" onclick="closeModal()">&times;</span>
-      <i class="fa-solid fa-crown modal-icon"></i>
-      <h3>Join PANKAJ BHARDWAJ</h3>
-      <p>Get exclusive market insights, expert discussions, and practical strategies — free on Telegram.</p>
-      <a id="modalJoinBtn" class="modal-join-btn" onclick="trackLeadAndGo()">
-        <i class="fa-brands fa-telegram"></i> Join Now on Telegram
-      </a>
+    <!-- Hero card -->
+    <div class="hero-card">
+      <h2 class="hero-title">
+        Join Free Now <span class="highlight">Pankaj Bhardwaj Official Channel</span> and get daily Premium calls for
+        <span class="highlight">NIFTY, BANKNIFTY &amp; SENSEX</span> with
+        <span class="highlight">95% accuracy</span>
+      </h2>
+      <p class="hero-sub">Join thousands of traders receiving free market updates and analysis.</p>
     </div>
-  </div>
 
-  <!-- Tiny side text: Ad manage by Karan Agency -->
-  <div class="ad-manage-tag">
-    <i class="fa-solid fa-bolt"></i> Ad manage by Karan Agency
-  </div>
+    <!-- Join banner (first) -->
+    <div class="join-banner">
+      <div class="join-banner-row">
+        <svg class="icon-zap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+        </svg>
+        <svg class="icon-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path>
+        </svg>
+        7,589 people joined today!
+      </div>
+      <p class="join-banner-sub">Limited time: <strong style="color: #facc15;">100% FREE access</strong></p>
+    </div>
 
-  <!-- Auto Apply Variables & Event Tracking -->
-  <script>
-    // Apply variables
-    document.getElementById("site-title").innerText = SITE_NAME;
-    document.getElementById("site-heading").innerHTML = 
-      `<i class="fa-solid fa-crown crown"></i> ${SITE_NAME} <i class="fa-solid fa-crown crown"></i>`;
-    document.getElementById("site-logo").src = SITE_IMAGE;
+    <!-- CTA button (first) -->
+    <a
+      href="https://t.me/+J-OeHLBbS8IzMzQ5"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="cta-button"
+    >
+      <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+        <path d="m21.854 2.147-10.94 10.939"></path>
+      </svg>
+      Join Free Telegram Channel
+    </a>
 
-    // The main CTA button no longer links directly; its href is disabled
-    const ctaBtn1 = document.getElementById("cta-btn-1");
-    ctaBtn1.href = "javascript:void(0)";
+    <!-- Feature list -->
+    <div class="feature-list">
+      <div class="feature-item">
+        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="m9 12 2 2 4-4"></path>
+        </svg>
+        <span class="feature-text">Daily Nifty &amp; BankNifty Levels</span>
+      </div>
+      <div class="feature-item">
+        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="m9 12 2 2 4-4"></path>
+        </svg>
+        <span class="feature-text">No Paid Tips – Purely Educational</span>
+      </div>
+      <div class="feature-item">
+        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="m9 12 2 2 4-4"></path>
+        </svg>
+        <span class="feature-text">5+ Years of Market Experience</span>
+      </div>
+      <div class="feature-item">
+        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="m9 12 2 2 4-4"></path>
+        </svg>
+        <span class="feature-text">100,000+ Subscribers Trust Us Already</span>
+      </div>
+    </div>
 
-    // Modal controls
-    const modal = document.getElementById("joinModal");
-    const modalJoinBtn = document.getElementById("modalJoinBtn");
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+      <div class="testimonials-header">
+        <h2>What traders are saying</h2>
+        <p>Real feedback from our community</p>
+      </div>
+      <div class="testimonial-list">
+        <article class="testimonial-card">
+          <svg class="quote-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
+            <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
+          </svg>
+          <p class="testimonial-text">“The BankNifty levels are spot on. I've been following for 3 months and my consistency has improved a lot.”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">R</div>
+            <div>
+              <p class="author-name">Rahul M.</p>
+              <p class="author-role">Full-time trader, Mumbai</p>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial-card">
+          <svg class="quote-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
+            <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
+          </svg>
+          <p class="testimonial-text">“I don't have time to research. This channel gives me crisp, actionable updates every morning.”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">P</div>
+            <div>
+              <p class="author-name">Priya S.</p>
+              <p class="author-role">Working professional, Bangalore</p>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial-card">
+          <svg class="quote-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
+            <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
+          </svg>
+          <p class="testimonial-text">“Finally a channel that doesn't push paid tips. The educational approach really helps.”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <p class="author-name">Amit K.</p>
+              <p class="author-role">Part-time investor, Delhi</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    // Open modal + track Lead event
-    function openModal(e) {
-      if (e) e.preventDefault();
-      // Fire Meta Pixel Lead event when opening pop-up
-      if (typeof fbq === 'function') {
-        fbq('track', 'Lead');
-      }
-      modal.classList.add('active');
-    }
+    <!-- Join banner (repeat) -->
+    <div class="join-banner">
+      <div class="join-banner-row">
+        <svg class="icon-zap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+        </svg>
+        <svg class="icon-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path>
+        </svg>
+        7,589 people joined today!
+      </div>
+      <p class="join-banner-sub">Limited time: <strong style="color: #facc15;">100% FREE access</strong></p>
+    </div>
 
-    // Close modal
-    function closeModal() {
-      modal.classList.remove('active');
-    }
+    <!-- CTA button (repeat) -->
+    <a
+      href="https://t.me/+J-OeHLBbS8IzMzQ5"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="cta-button"
+    >
+      <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+        <path d="m21.854 2.147-10.94 10.939"></path>
+      </svg>
+      Join Free Telegram Channel
+    </a>
 
-    // Close when clicking outside modal box
-    modal.addEventListener('click', function(e) {
-      if (e.target === modal) {
-        closeModal();
-      }
-    });
+    <p class="fine-print">Limited time: <strong>100% FREE access</strong></p>
 
-    // Close on Escape key
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape' && modal.classList.contains('active')) {
-        closeModal();
-      }
-    });
-
-    // Track Lead again on final join click, then redirect
-    function trackLeadAndGo() {
-      if (typeof fbq === 'function') {
-        fbq('track', 'Lead');
-      }
-      // Redirect to Telegram after a tiny delay to ensure pixel fires
-      setTimeout(function() {
-        window.location.href = TELEGRAM_LINK;
-      }, 120);
-    }
-
-    // Also set modal button as a fallback link (in case JS redirect fails)
-    modalJoinBtn.href = TELEGRAM_LINK;
-  </script>
-
+    <!-- Disclaimer -->
+    <aside class="disclaimer">
+      <h2>Disclaimer:</h2>
+      <p>This channel is for educational and informational purposes only. We do not provide investment advice or guaranteed returns. Trading in the stock market involves risk. Please consult your financial advisor before making any investment decisions.</p>
+    </aside>
+  </main>
 </body>
 </html>
